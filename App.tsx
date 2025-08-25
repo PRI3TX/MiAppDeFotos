@@ -1,16 +1,16 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Button, Image } from 'react-native';
-import {
-  Camera,
-  useCameraDevice,
-  useCameraPermission,
-} from 'react-native-vision-camera';
+//import {
+  //Camera,
+  //useCameraDevice,
+  //useCameraPermission,
+//} from 'react-native-vision-camera';
 
-import {CameraRoll} from '@react-native-camera-roll/camera-roll';
+//import {CameraRoll} from '@react-native-camera-roll/camera-roll';
+//import { Camera } from 'react-native-camera-kit';
 
-
-function App(): React.JSX.Element {
-  const device = useCameraDevice('back');
+//function App(): React.JSX.Element {
+/*  const device = useCameraDevice('back');
   const { hasPermission, requestPermission } = useCameraPermission();
   const camera = useRef<Camera>(null);
   const [photoPath, setPhotoPath] = useState<string | null>(null);
@@ -61,7 +61,7 @@ function App(): React.JSX.Element {
       )}
     </View>
   );
-}
+}*/
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -83,4 +83,4 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
 });
-export default App;
+//export default App;
